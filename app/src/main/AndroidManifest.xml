@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".GoogleWithLogin.ProfileActivity"></activity>
+        <activity
+            android:name=".GoogleWithLogin.GoogleWithLoginActivity"
+            android:label="GoogleLoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FaceBookWithLogin.FacebookloginActivity"
+            android:label="FacebookloginActivity" />
+        <activity
+            android:name=".TextToSpeech.TextToSpeechDemoActivity"
+            android:label="TextToSpeechActivity" />
+        <activity
+            android:name=".TextToSpeech.TextToSpeechActivity"
+            android:label="TextToSpeechActivity" />
+        <activity
+            android:name=".SpeechToText.SpeechToTextDemoActivity"
+            android:label="SpeechToTextDemoActivity" />
+        <activity
+            android:name=".SpeechToText.SpeechTextActivity"
+            android:label="TextToSpeechActivity" />
+        <activity
+            android:name=".ShimmerEffect.ShimmerMainActivity"
+            android:label="ShimmerEffectActivity" />
+        <activity
+            android:name=".ImageChooserGallryOrCamera.PermissionDemoActivity"
+            android:label="PermissionDemoActivity" />
+        <activity
+            android:name=".ImageChooserGallryOrCamera.RuntimePermissionsActivity"
+            android:label="RuntimePermissionsActivity" />
+        <activity
+            android:name=".ImageChooserGallryOrCamera.CameraPickerActivity"
+            android:label="CameraPickerActivity" />
+        <activity
+            android:name=".ImageChooserGallryOrCamera.AddImageActivity"
+            android:label="AddImageActivity" />
+        <activity
+            android:name=".ImageChooserGallryOrCamera.PickerImageActivity"
+            android:label="PickerImageActivity" />
+        <activity
+            android:name=".ImageChooserGallryOrCamera.ImagePickerActivity"
+            android:label="ImagePickerActivity" />
+        <activity
+            android:name=".ExpandableListView.Expandable2Activity"
+            android:label="Expandable2Activity" />
+        <activity
+            android:name=".ExpandableListView.ExpandableActivity"
+            android:label="ExpandableActivity" />
+        <activity
+            android:name=".SliderIndicator.Main4Activity"
+            android:label="Main4Activity" />
+        <activity
+            android:name=".SliderIndicator.DotsActivity"
+            android:label="DotsActivity" />
+        <activity
+            android:name=".SliderIndicator.WelcomeActivity"
+            android:label="WelcomeActivity" />
+        <activity
+            android:name=".mNavigation.BottomActivity"
+            android:label="BottomActivity" />
+        <activity
+            android:name=".mNavigation.BottomNavigationActivity"
+            android:label="BottomNavigationActivity" />
+        <activity
+            android:name=".mNavigation.NewNavigation4Activity"
+            android:label="NewNavigation4Activity" />
+        <activity
+            android:name=".mNavigation.Main3Activity"
+            android:label="Main3Activity" />
+        <activity
+            android:name=".mNavigation.Main2Activity"
+            android:label="Main2Activity" />
+        <activity
+            android:name=".mNavigation.MNavigationActivity"
+            android:label="mNavigationaActivity" />
+        <activity
+            android:name=".ApicallActivity"
+            android:label="ApicallActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>

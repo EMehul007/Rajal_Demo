@@ -1,0 +1,160 @@
+<resources>
+    <!--<string name="app_name">My Application</string>-->
+    <string name="country_prompt">Choose a country</string>
+    <string name="department_prompt">Choose a country</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="department_arrays">
+        <item>Accounts</item>
+        <item>Admin</item>
+        <item>Advisor</item>
+        <item>Designing</item>
+        <item>HR</item>
+    </string-array>
+
+    <!--<string name="app_name">Android_NavigationDrawer_Demo</string>-->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="messages">Messages</string>
+    <string name="user_account">User Account</string>
+    <string name="setting">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="icon_description">Navigation Drawer List Icons</string>
+    <string name="profile_image">User profile image</string>
+    <string name="user_name">Android</string>
+    <string name="email">Android@gmail.com</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+
+    <string-array name="list_items">
+        <item>Home</item>
+        <item>User Account</item>
+        <item>Messages</item>
+        <item>Settings</item>
+        <item>About Us</item>
+    </string-array>
+
+    <string-array name="list_subitems">
+        <item>User Home page</item>
+        <item>User profile account</item>
+        <item>Check your messages</item>
+        <item>Change your settings</item>
+        <item>Check about us</item>
+    </string-array>
+
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_session">Session</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_others">Others</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+
+    <!--<string name="app_name">Intro Slider</string>-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="back">BACK</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="slide_1_name">PHONE!</string>
+    <string name="slide_1_dots">Big Discounts On Smart Phones!</string>
+
+    <string name="slide_2_name">FLIGHT!</string>
+    <string name="slide_2_dots">Upto 25% Off On Domestic Flight!</string>
+
+    <string name="slide_3_name">BUS!</string>
+    <string name="slide_3_dots">Enjoy Travelling On Bus With Flat 100 Off!</string>
+
+    <string name="slide_4_name">TRAIN!</string>
+    <string name="slide_4_dots">10% Cashback On Frist Train Booking!</string>
+
+
+    <!--<string name="app_name">Runtime</string>-->
+    <string name="text_alcohol">Alcohol</string>
+    <string name="text_coffee">Coffee</string>
+    <string name="text_pasta">Pasta</string>
+    <string name="text_cold_drinks">Cold Drinks</string>
+    <string name="text_expanded">Expanded</string>
+    <string name="text_collapsed">Collapsed</string>
+    <string name="recognizer" />
+
+    <string-array name="string_array_alcohol">
+        <item>Vodka</item>
+        <item>Rum</item>
+        <item>Whiskey</item>
+        <item>Gin</item>
+        <item>Tequila</item>
+    </string-array>
+
+    <string-array name="string_array_coffee">
+        <item>Espresso</item>
+        <item>Macchiato</item>
+        <item>Cappuccino</item>
+        <item>Cafe Latte</item>
+        <item>Ristretto</item>
+    </string-array>
+
+    <string-array name="string_array_pasta">
+        <item>Carbonara</item>
+        <item>Capellini</item>
+        <item>Spaghetti</item>
+        <item>Gnocchi</item>
+        <item>Lasagnette</item>
+    </string-array>
+
+    <string-array name="string_array_cold_drinks">
+        <item>Cola</item>
+        <item>Lemonade</item>
+        <item>Citrus soda</item>
+        <item>Juice</item>
+        <item>Sparkling Water</item>
+    </string-array>
+
+    <string name="app_name">Speech To Text</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+
+    <string name="facebook_app_id">498394877381994</string>
+    <string name="fb_login_protocol_scheme">498394877381994</string>
+    <string name="name">Name</string>
+    <string name="Email">email</string>
+</resources>

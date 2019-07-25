@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner Dropdown"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:background="#ff5500"
+        android:textColor="#fff"/>
+    <Spinner
+        android:layout_margin="10dp"
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:popupBackground="#ffffff"/>
+
+       <Button
+           android:id="@+id/btn_Next"
+           android:padding="15dp"
+           android:layout_below="@id/spinner1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Next"
+           android:textSize="20dp"/>
+</RelativeLayout>

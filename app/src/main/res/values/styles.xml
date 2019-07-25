@@ -1,0 +1,91 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;-->
+        <!--Base application theme, dependent on API level. This theme is replaced-->
+        <!--by AppBaseTheme from res/values-vXX/styles.xml on newer devices.-->
+    <!--&ndash;&gt;-->
+    <!--<style name="AppBaseTheme" parent="Theme.AppCompat.Light">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+        <!--<item name="android:textColorSecondary">@android:color/white</item>-->
+        <!--<item name="actionMenuTextColor">@android:color/white</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+
+        <!--&lt;!&ndash;-->
+            <!--Theme customizations available in newer API levels can go in-->
+            <!--res/values-vXX/styles.xml, while customizations related to-->
+            <!--backward-compatibility can go here.-->
+        <!--&ndash;&gt;-->
+    <!--</style>-->
+
+    <!-- Application theme. -->
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+        <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+    <!--</style>-->
+
+    <!--<style name="AppBaseTheme" parent="Theme.AppCompat.Light">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+        <!--<item name="android:textColorSecondary">@android:color/white</item>-->
+        <!--<item name="actionMenuTextColor">@android:color/white</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--&lt;!&ndash;<item name="android:windowContentTransitions">true</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:windowAllowEnterTransitionOverlap">true</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:windowAllowReturnTransitionOverlap">true</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:windowSharedElementEnterTransition">@android:transition/move</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:windowSharedElementExitTransition">@android:transition/move</item>&ndash;&gt;-->
+    <!--</style>-->
+    <style name="AppTheme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!--!&#45;&#45; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="drawerArrowStyle">@style/BarStyle</item>-->
+        <!--<item name="windowActionBar">true</item>-->
+        <!--<item name="windowActionBarOverlay">true</item>-->
+        <!--&lt;!&ndash;<item name="windowIsFloating">false</item>&ndash;&gt;-->
+        <!--<item name="windowActionModeOverlay">true</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
+
+    <!--<style name="BarStyle" parent="Widget.AppCompat.DrawerArrowToggle">-->
+        <!--<item name="color">@android:color/white</item>-->
+    <!--</style>-->
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Id"/>
+        <Button
+            android:id="@+id/Invoke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Invoke"/>
+        <Button
+            android:id="@+id/btn_Next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Next"/>
+    </LinearLayout>
+</LinearLayout>
